@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(53, 133, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(7, 34, 39);
+}
+.container {
+  padding: 30px;
+  min-width: 450px;
+  height: 200px;
+  width: 40px;
+  border: 2px solid rgb(7, 34, 39);
+  border-radius: 20px;
+  box-shadow: 5px solid white;
+}
+h3 {
+  color: rgb(7, 34, 39);
+}
+
+.date-button-container {
+  border: 2px solid none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#enterDate {
+  padding: 3px 10px;
+  border: 3px solid rgb(7, 34, 39);
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(7, 34, 39);
+}
+.submitbutton {
+  padding: 4px 15px;
+  border: .1px solid rgb(7, 34, 39);
+  border-radius: 20px;
+  font-weight: normal;
+  background-color: rgb(7, 34, 39);
+  color: white;
+}
+
+/* final age */
+.final-calculcated-cont {
+  margin-top: 35px;
+  border: 2px solid none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.final{
+    font-weight: normal;
+    font-size: large;
+}

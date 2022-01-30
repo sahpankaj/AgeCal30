@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style-sheet -->
+    <link rel="stylesheet" href="stlye.css" />
+  </head>
+  <body>
+    <div class="main-conatiner">
+      <h2>Calculate your age</h2>
+      <div class="container">
+        <!-- <h3>enter your DOB</h3> -->
+        <div class="date-button-container">
+          <div class="date-container">
+            <input type="date" id="enterDate" />
+          </div>
+          <div class="button-container">
+            <button class="submitbutton" id="button" onclick="age()">Calculate</button>
+          </div>
+        </div>
+        <div class="final-calculcated-cont">
+          <div class="final-calculated">
+            <span class="final" id="years"> - </span>
+            <h4>Years</h4>
+          </div>
+          <div class="final-calculated">
+            <span class="final" id="months"> - </span>
+            <h4>Months</h4>
+          </div>
+          <div class="final-calculated">
+            <span class="final" id="days"> - </span>
+            <h4>Days</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.JS"></script>
+  </body>
+</html>
